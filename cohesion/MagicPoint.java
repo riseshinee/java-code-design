@@ -2,7 +2,7 @@ package cohesion;
 import java.util.List;
 
 /**
- * 의미 있는 단위는 모두 클래스로 만들기: 매개 변수가 많아지는 문제 회피
+ * 의미 있는 단위는 모두 클래스로 만들닝: 매개 변수가 많아지는 문제 회피
  * 예시: 장비 착용에 따른 매직포인트 (매직 포인트와 관련된 값들을 인스턴스 변수로 갖도록 구성하기)
  */
 public class MagicPoint {
@@ -23,7 +23,7 @@ public class MagicPoint {
    * @return
    */
   int max() {
-    int amount = originalMaxAmount;
+    int amount = originalAmount;
     for(int each : maxIncrements) {
       amount += each;
     }

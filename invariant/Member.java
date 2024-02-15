@@ -2,7 +2,11 @@ package invariant;
 
 public class Member {
   final HitPoint hitPoint;
-  //final States states;
+  public int magicAttack;
+  public int level;
+  public int agility;
+  public int vitality;
+
 
   Member(HitPoint hitPoint) {
     this.hitPoint = hitPoint;

@@ -1,6 +1,6 @@
 package invariant;
 
-public class Weapon {
+class Weapon {
   final AttackPower attackPower;
   Weapon(final AttackPower attackPower) {
     this.attackPower = attackPower;
