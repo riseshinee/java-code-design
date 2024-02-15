@@ -1,9 +1,10 @@
 package invariant;
 
 /**
- * 불변 클래스 예제: 게임에서 공격력 강화, 무력화 예제
+ * 불변 클래스
+ * 예시: 게임에서 공기력 강화, 무력화
  */
-class AttackPower {
+public class AttackPower {
   static final int MIN = 0;
   final int value; //불변으로 설정
 
