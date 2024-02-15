@@ -1,7 +1,8 @@
 package invariant;
 
 /**
- * 가변 클래스 예제: 히트포인트
+ * 가변 클래스
+ * 예시: 히트 포인트
  */
 public class HitPoint {
   private static final int MIN = 0;
