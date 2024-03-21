@@ -1,4 +1,4 @@
-package quarter.policypattern;
+package quarter.useinterface;
 import invariant.Member;
 import quarter.useinterface.MagicType;
 

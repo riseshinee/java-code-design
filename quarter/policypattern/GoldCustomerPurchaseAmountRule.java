@@ -1,7 +1,7 @@
 package quarter.policypattern;
 
 /**
- * 골드 회원 구매 금액 규기
+ * 골드 회원 구매 금액 규칙
  */
 public class GoldCustomerPurchaseAmountRule implements ExcellentCustomerRule{
   @Override
